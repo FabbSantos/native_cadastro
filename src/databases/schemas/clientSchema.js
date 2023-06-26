@@ -2,15 +2,15 @@ import { tableSchema } from '@nozbe/watermelondb'
 
 
 export const clientSchema = tableSchema({
-    name: 'Clients',
+    name: 'clients',
     columns: [
         {
-            name: 'ClientName',
+            name: 'client_name',
             type: 'string'
         },
         
         {
-            name: 'Alias',
+            name: 'alias',
             type: 'string'
         }
     ]
