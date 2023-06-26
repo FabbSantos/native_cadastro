@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@expo/webpack-config": "^18.0.1",
+    "@nozbe/watermelondb": "^0.26.0",
     "@react-navigation/native": "^6.1.7",
     "@react-navigation/stack": "^6.3.17",
     "expo": "~48.0.18",
@@ -20,7 +21,8 @@
     "react-native-web": "~0.18.10"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@babel/plugin-proposal-decorators": "^7.22.5"
   },
   "private": true
 }
